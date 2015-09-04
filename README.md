@@ -1,11 +1,11 @@
 ##cystation v1.0.0
 
-**Code:** http://neetco.de/cyfause/cystation.git <BR>
+**Code:** https://github.com/cyfause/cystation.git <BR>
 **IRC:** irc://irc.rizon.net/cystation <BR>
 
 ##DOWNLOADING
 
-Either use git bash, and type "git clone http://neetco.de/cyfause/cystation.git" into it,
+Either use git bash, and type "git clone https://github.com/cyfause/cystation" into it,
 "clone on desktop" on the sidebar, or "download zip".
 
 ##INSTALLATION
@@ -14,13 +14,13 @@ First-time installation should be fairly straightforward.  First, you'll need
 BYOND installed.  You can get it from http://www.byond.com/.  Once you've done 
 that, extract the game files to wherever you want to keep them.  This is a
 sourcecode-only release, so the next step is to compile the server files.
-Open tgstation.dme by double-clicking it, open the Build menu, and click
+Open cystation.dme by double-clicking it, open the Build menu, and click
 compile.  This'll take a little while, and if everything's done right you'll get
 a message like this:
 
 ```
-saving tgstation.dmb (DEBUG mode)
-tgstation.dmb - 0 errors, 0 warnings
+saving cystation.dmb (DEBUG mode)
+cystation.dmb - 0 errors, 0 warnings
 ```
 
 If you see any errors or warnings, something has gone wrong - possibly a corrupt
@@ -49,7 +49,7 @@ byondkey = Rank
 where the admin rank must be properly capitalised.
 
 Finally, to start the server, run Dream Daemon and enter the path to your
-compiled tgstation.dmb file.  Make sure to set the port to the one you 
+compiled cystation.dmb file.  Make sure to set the port to the one you 
 specified in the config.txt, and set the Security box to 'Safe'.  Then press GO
 and the server should start up and be ready to join.
 
