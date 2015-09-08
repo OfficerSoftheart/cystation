@@ -241,6 +241,20 @@
 	//min_cold_protection_temperature = FIRE_SUIT_MIN_TEMP_PROTECT
 	flags = NODROP
 
+/obj/item/clothing/suit/ntdress
+	name = "Nanotrasen Dress Uniform"
+	desc = "A formal uniform for Nanotrasen employees attending diplomatic events with rival corporations."
+	icon_state = "ntdress"
+	item_state = "ntdress"
+	flags_inv = HIDEGLOVES|HIDESHOES|HIDEJUMPSUIT
+
+/obj/item/clothing/suit/syndicatedress
+	name = "Syndicate Dress Uniform"
+	desc = "A formal uniform for Syndicate agents attending diplomatic events with Nanotrasen dignitaries."
+	icon_state = "syndicatedress"
+	item_state = "syndicatedress"
+	flags_inv = HIDEGLOVES|HIDESHOES|HIDEJUMPSUIT
+
 /*
  * Misc
  */
