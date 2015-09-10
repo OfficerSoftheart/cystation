@@ -140,6 +140,13 @@
 	item_color = "blacksuit"
 	can_adjust = 1
 
+/obj/item/clothing/under/lawyer/skirtblack
+	name = "black skirt"
+	desc = "A professional black and white office skirt-and-shirt two-piece uniform."
+	icon_state = "formalskirt_1"
+	item_state = "formalskirt_1"
+	item_color = "formalskirt_1"
+	can_adjust = 0
 
 /obj/item/clothing/under/rank/librarian
 	name = "sensible suit"
